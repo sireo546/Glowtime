@@ -1,12 +1,27 @@
-# React + Vite
+# Glowtime — Personalized Online Study Space
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Glowtime is a work-in-progress web application designed to help students stay focused, motivated, and productive.  
+Features are inspired by platforms like LifeAt but with a personalized, interactive twist.
 
-Currently, two official plugins are available:
+##  Features (Planned & In Progress)
+- ✅ Motivational avatar system with study vibes (competitive, chill, last-minute)
+- ✅ "Quick Boosts" flip cards with mini study tips
+- ✅ To-do list integration
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  Planned
+- ⏳ Study timers with ambient sounds
+- ⏳ Competitive mode where users can challenge each other on similar tasks
 
-## Expanding the ESLint configuration
+##  Tech Stack
+- Frontend: React.js
+- Backend: (Planned) Node.js + Express
+- Database: (Planned) PostgreSQL
+- Styling: TailwindCSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Status
+Currently developing core UI and feature components.  
+Next step: Backend integration for persistent data storage.
+
+---
+
+**Note:** This is an ongoing personal project. You can follow updates here as new features are added.
