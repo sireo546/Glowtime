@@ -25,3 +25,6 @@ Next step: Backend integration for persistent data storage.
 ---
 
 **Note:** This is an ongoing personal project. You can follow updates here as new features are added.
+## License
+This project is shared publicly for demonstration and portfolio purposes only.  
+**Unauthorized use, reproduction, or modification of the code is prohibited.**
