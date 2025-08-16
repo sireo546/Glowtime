@@ -9,8 +9,8 @@ Features are inspired by platforms like LifeAt but with a personalized, interact
 - ✅ To-do list integration
 
   Planned
-- ⏳ Study timers with ambient sounds
-- ⏳ Competitive mode where users can challenge each other on similar tasks
+- Study timers with ambient sounds
+- Competitive mode where users can challenge each other on similar tasks
 
 ##  Tech Stack
 - Frontend: React.js
