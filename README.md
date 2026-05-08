@@ -37,7 +37,7 @@ Planned / In Progress:
 **Backend**: Spring Boot (Java), Spring Data JPA, Hibernate.
 **Database**: PostgreSQL  
 **Styling**: TailwindCSS (planned)  
-
+**Tools**: Git, Maven
 ---
 
 ## Status
