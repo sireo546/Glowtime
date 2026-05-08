@@ -12,12 +12,21 @@ The idea is inspired by platforms like LifeAt, but with a more personal and inte
 ✅ Frontend and backend connected (React ↔ Spring Boot REST API)  
 ✅ Automatic proxy setup for API requests (no CORS issues)  
 ✅ Simple React interface for testing features  
+✅ Reorganized backend code into model, repository, service, controller, and config packages
+✅ Added `Todo` entity with fields: id, task, completed
+✅ Implemented `TodoRepository` with custom query methods
+✅ Created `TodoService` with methods for creating, retrieving, updating, and deleting todos
+✅ Added validation annotations to the `Todo` entity
 
 Planned / In Progress: 
--Delete single sessions or clear all sessions
+- Implement `TodoController` with endpoints for CRUD operations on todos
+- Connect frontend todo list to the backend API
+- Add error handling and validation in the backend
+- Write unit tests for `TodoService` using Mockito
+- Implement user authentication and authorization
+- Delete single sessions or clear all sessions
 - Motivational avatar system with study vibes (competitive, chill, last-minute)  
-- “Quick Boosts” flip cards with mini study tips  
-- To-do list integration  
+- "Quick Boosts" flip cards with mini study tips  
 - Study timers with ambient sounds  
 - Competitive mode where users can challenge each other on similar tasks  
 
@@ -25,16 +34,21 @@ Planned / In Progress:
 
 ## Tech Stack
 **Frontend**: React (Vite)  
-**Backend**: Spring Boot (Java)  
+**Backend**: Spring Boot (Java), Spring Data JPA, Hibernate.
 **Database**: PostgreSQL  
 **Styling**: TailwindCSS (planned)  
 
 ---
 
 ## Status
-The frontend and backend are now connected, study sessions can be created, viewed, and deleted with data stored in PostgreSQL.  
+The frontend and backend are now connected, study sessions can be created, viewed, and deleted with data stored in PostgreSQL. The backend code has been reorganized into proper packages, and the `Todo` entity and related components have been implemented.
 
 Next steps:  
+- Complete the `TodoController` implementation
+- Connect the frontend todo list to the backend API
+- Add error handling and validation in the backend
+- Write unit tests for `TodoService`
+- Implement user authentication and authorization
 - Add avatar system 
 - Polish UI with TailwindCSS  
 - Expand backend endpoints for more features  
@@ -57,5 +71,5 @@ Sessions can now be added (subject, duration, mood) and persisted in PostgreSQL 
 
 ## License
 This project is shared publicly for demonstration and portfolio purposes only.  
-Unauthorized use, reproduction, or modification of the code is prohibited.  
+Unauthorized use, reproduction, or modification of the code is prohibited.
 
