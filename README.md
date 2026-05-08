@@ -1,0 +1,61 @@
+# Glowtime — Personalized Online Study Space  
+
+Glowtime is a work-in-progress web application designed to help students stay focused, motivated, and productive.  
+The idea is inspired by platforms like LifeAt, but with a more personal and interactive twist.  
+
+---
+
+## Features (Current & Planned)
+
+✅ Add study sessions (subject, duration, mood)  
+✅ View all saved sessions (persisted in PostgreSQL)  
+✅ Frontend and backend connected (React ↔ Spring Boot REST API)  
+✅ Automatic proxy setup for API requests (no CORS issues)  
+✅ Simple React interface for testing features  
+
+Planned / In Progress: 
+-Delete single sessions or clear all sessions
+- Motivational avatar system with study vibes (competitive, chill, last-minute)  
+- “Quick Boosts” flip cards with mini study tips  
+- To-do list integration  
+- Study timers with ambient sounds  
+- Competitive mode where users can challenge each other on similar tasks  
+
+---
+
+## Tech Stack
+**Frontend**: React (Vite)  
+**Backend**: Spring Boot (Java)  
+**Database**: PostgreSQL  
+**Styling**: TailwindCSS (planned)  
+
+---
+
+## Status
+The frontend and backend are now connected, study sessions can be created, viewed, and deleted with data stored in PostgreSQL.  
+
+Next steps:  
+- Add avatar system 
+- Polish UI with TailwindCSS  
+- Expand backend endpoints for more features  
+
+###  Progress Screenshots  
+
+**v1 – Initial UI**  
+Basic layout with vibes and motivational cards, no to-do list or backend yet.  
+![v1 UI](docs/screenshots/v1-ui-new.png)  
+
+**v2 – To-Do List Added**  
+Introduced the to-do list feature, improved vibes buttons styling.  
+![v2 UI](docs/screenshots/v2-ui.png)  
+
+**v3 – Backend Connected**  
+Sessions can now be added (subject, duration, mood) and persisted in PostgreSQL via Spring Boot backend.  
+![v3 UI](docs/screenshots/v3-ui.png)  
+
+---
+
+## License
+This project is shared publicly for demonstration and portfolio purposes only.  
+Unauthorized use, reproduction, or modification of the code is prohibited.  
+
