@@ -1,23 +1,24 @@
-//interface that extends the JPARepository, provides a way to interact with the database for performing CRUD(create, read, update, Delete) operation on to entities. By extending JpaRepository, it inherits common database operaiton such as save(), findById(), findAll(), an deleteByid() without implementing myself
+// Interface that extends the JpaRepository, provides a way to interact with the database
+// for performing CRUD (Create, Read, Update, Delete) operations on Todo entities.
+// By extending JpaRepository, it inherits common database operations such as
+// save(), findById(), findAll(), and deleteById() without implementing them manually.
 
-//specify the package where interface belongs
-
+// Specify the package where the interface belongs
 package com.glowtime.backend.repository;
 
-//import the todo entity and jpa repository
+// Import the Todo entity and JpaRepository
 import com.glowtime.backend.model.Todo;
-import org.springframework.data.jpa.repostory.JpaRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-//import the List class from java.util package
+// Import the List class from the java.util package
 import java.util.List;
 
-//define TodoRepository interface, extend JpaRepository<Todo, Long>
-//provides crud operations for Todo entities
-
+// Define the TodoRepository interface, extending JpaRepository<Todo, Long>
+// Provides CRUD operations for Todo entities
 public interface TodoRepository extends JpaRepository<Todo, Long> {
-  //custom query method to find todos by their completed status
-  List<todo> findbyCompleted(boolean completed);
+    // Custom query method to find todos by their completed status
+    List<Todo> findByCompleted(boolean completed);
 
-  //custom methos to find todos that are not completed
-  List<Todo> findbyCompletedFalse();  
+    // Custom method to find todos that are not completed
+    List<Todo> findByCompletedFalse();
 }
