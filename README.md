@@ -7,28 +7,30 @@ The idea is inspired by platforms like LifeAt, but with a more personal and inte
 
 ## Features (Current & Planned)
 
-✅ Add study sessions (subject, duration, mood)  
-✅ View all saved sessions (persisted in PostgreSQL)  
-✅ Frontend and backend connected (React ↔ Spring Boot REST API)  
-✅ Automatic proxy setup for API requests (no CORS issues)  
-✅ Simple React interface for testing features  
+✅ Add study sessions (subject, duration, mood)
+✅ View all saved sessions (persisted in PostgreSQL)
+✅ Frontend and backend connected (React ↔ Spring Boot REST API)
+✅ Automatic proxy setup for API requests (no CORS issues)
+✅ Simple React interface for testing features
 ✅ Reorganized backend code into model, repository, service, controller, and config packages
-✅ Added `Todo` entity with fields: id, task, completed
-✅ Implemented `TodoRepository` with custom query methods
-✅ Created `TodoService` with methods for creating, retrieving, updating, and deleting todos
-✅ Added validation annotations to the `Todo` entity
+✅ Added Todo entity with fields: id, task, completed
+✅ Implemented TodoRepository with custom query methods
+✅ Created TodoService with methods for creating, retrieving, updating, and deleting todos
+✅ Added validation annotations to the Todo entity
+✅ Implemented TodoController with endpoints for CRUD operations on todos
+✅ Connected frontend todo list to the backend API
+✅ Added spring-boot-starter-validation dependency to support entity validation
+✅ Added initial unit test coverage for TodoService
 
 Planned / In Progress: 
-- Implement `TodoController` with endpoints for CRUD operations on todos
-- Connect frontend todo list to the backend API
-- Add error handling and validation in the backend
-- Write unit tests for `TodoService` using Mockito
-- Implement user authentication and authorization
-- Delete single sessions or clear all sessions
-- Motivational avatar system with study vibes (competitive, chill, last-minute)  
-- "Quick Boosts" flip cards with mini study tips  
-- Study timers with ambient sounds  
-- Competitive mode where users can challenge each other on similar tasks  
+-Add error handling and validation in the backend
+-Expand unit test coverage for TodoService
+-Implement user authentication and authorization
+-Delete single sessions or clear all sessions
+-Motivational avatar system with study vibes (competitive, chill, last-minute)
+-"Quick Boosts" flip cards with mini study tips
+-Study timers with ambient sounds
+-Competitive mode where users can challenge each other on similar tasks 
 
 ---
 
@@ -44,14 +46,12 @@ Planned / In Progress:
 The frontend and backend are now connected, study sessions can be created, viewed, and deleted with data stored in PostgreSQL. The backend code has been reorganized into proper packages, and the `Todo` entity and related components have been implemented.
 
 Next steps:  
-- Complete the `TodoController` implementation
-- Connect the frontend todo list to the backend API
-- Add error handling and validation in the backend
-- Write unit tests for `TodoService`
-- Implement user authentication and authorization
-- Add avatar system 
-- Polish UI with TailwindCSS  
-- Expand backend endpoints for more features  
+-Add error handling and validation in the backend
+-Expand unit test coverage
+-Implement user authentication and authorization
+-Add avatar system
+-Polish UI with TailwindCSS
+-Expand backend endpoints for more features  
 
 ###  Progress Screenshots  
 
