@@ -7,20 +7,20 @@ The idea is inspired by platforms like LifeAt, but with a more personal and inte
 
 ## Features (Current & Planned)
 
-✅ Add study sessions (subject, duration, mood)
-✅ View all saved sessions (persisted in PostgreSQL)
-✅ Frontend and backend connected (React ↔ Spring Boot REST API)
-✅ Automatic proxy setup for API requests (no CORS issues)
-✅ Simple React interface for testing features
-✅ Reorganized backend code into model, repository, service, controller, and config packages
-✅ Added Todo entity with fields: id, task, completed
-✅ Implemented TodoRepository with custom query methods
-✅ Created TodoService with methods for creating, retrieving, updating, and deleting todos
-✅ Added validation annotations to the Todo entity
-✅ Implemented TodoController with endpoints for CRUD operations on todos
-✅ Connected frontend todo list to the backend API
-✅ Added spring-boot-starter-validation dependency to support entity validation
-✅ Added initial unit test coverage for TodoService
+- ✅ Add study sessions (subject, duration, mood)
+- ✅ View all saved sessions (persisted in PostgreSQL)
+- ✅ Frontend and backend connected (React ↔ Spring Boot REST API)
+- ✅ Automatic proxy setup for API requests (no CORS issues)
+- ✅ Simple React interface for testing features
+- ✅ Reorganized backend code into model, repository, service, controller, and config packages
+- ✅ Added `Todo` entity with fields: id, task, completed
+- ✅ Implemented `TodoRepository` with custom query methods
+- ✅ Created `TodoService` with methods for creating, retrieving, updating, and deleting todos
+- ✅ Added validation annotations to the `Todo` entity
+- ✅ Implemented `TodoController` with endpoints for CRUD operations on todos
+- ✅ Connected frontend todo list to the backend API
+- ✅ Added `spring-boot-starter-validation` dependency to support entity validation
+- ✅ Added initial unit test coverage for `TodoService`
 
 Planned / In Progress: 
 -Add error handling and validation in the backend
